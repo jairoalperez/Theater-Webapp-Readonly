@@ -33,13 +33,19 @@ type CsvActorRow = {
   LastName: string;
   FrontImage?: string | null;
   FullBodyImage?: string | null;
+  Gender?: string | null;
 };
 
 type CsvPlayRow = {
   PlayId: number | string;
   Title: string;
+  Genre?: string | null;
+  genre?: string | null;
+  format?: string | null;
   Format?: string | null;
+  poster?: string | null;
   Poster?: string | null;
+  Description?: string | null;
 };
 
 async function fetchCsvText(url: string): Promise<string> {
@@ -66,7 +72,8 @@ function toNumber(v: unknown): number | undefined {
 const CharacterPage: React.FC = () => {
   const params = useParams();
   const idParam = params?.id;
-  const characterId = typeof idParam === "string" ? Number(idParam) : Number(idParam?.[0]);
+  const characterId =
+    typeof idParam === "string" ? Number(idParam) : Number(idParam?.[0]);
 
   const [character, setCharacter] = React.useState<Character | null>(null);
   const [loading, setLoading] = React.useState<boolean>(true);
@@ -127,15 +134,17 @@ const CharacterPage: React.FC = () => {
                 actorId: actorId!,
                 firstName: (actorRaw.FirstName ?? "").trim(),
                 lastName: (actorRaw.LastName ?? "").trim(),
-                frontImage: actorRaw.FrontImage || undefined,
+                gender: actorRaw.Gender ?? undefined, // <-- agrega esto
+                frontImage: actorRaw.FrontImage ?? undefined, // <-- normaliza a undefined
               }
             : undefined,
           play: playRaw
             ? {
                 playId: playId!,
                 title: playRaw.Title ?? "",
-                format: playRaw.Format ?? "",
-                poster: playRaw.Poster || undefined,
+                format: playRaw.format ?? playRaw.Format ?? "",
+                genre: playRaw.Genre ?? playRaw.genre ?? "",
+                poster: playRaw.poster ?? playRaw.Poster ?? undefined,
               }
             : undefined,
         };

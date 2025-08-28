@@ -1,7 +1,7 @@
 export interface CharacterPlay {
-    playId: number;
-    title: string;
-    genre: string;
-    format: string;
-    poster: string;
+  playId: number;
+  title: string;
+  format?: string;  
+  genre?: string;   
+  poster?: string;  
 }
