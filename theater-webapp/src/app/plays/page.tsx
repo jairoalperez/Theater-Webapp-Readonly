@@ -88,7 +88,7 @@ const PlaysList: React.FC = () => {
             title: (p.Title ?? "").trim(),
             genre: p.Genre ?? "",
             format: p.Format ?? "",
-            poster: p.Poster || null,
+            poster: p.Poster || undefined,
             characters: charCountByPlay.get(playId) ?? 0,
           } as PlayShort;
         });

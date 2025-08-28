@@ -120,14 +120,14 @@ const CharacterPage: React.FC = () => {
           age: toNumber(raw.Age),
           gender: raw.Gender ?? undefined,
           principal: String(raw.Principal ?? "0") === "1",
-          image: raw.Image || null,
+          image: raw.Image || undefined,
           // nested objects that your component reads:
           actor: actorRaw
             ? {
                 actorId: actorId!,
                 firstName: (actorRaw.FirstName ?? "").trim(),
                 lastName: (actorRaw.LastName ?? "").trim(),
-                frontImage: actorRaw.FrontImage || null,
+                frontImage: actorRaw.FrontImage || undefined,
               }
             : undefined,
           play: playRaw
@@ -135,7 +135,7 @@ const CharacterPage: React.FC = () => {
                 playId: playId!,
                 title: playRaw.Title ?? "",
                 format: playRaw.Format ?? "",
-                poster: playRaw.Poster || null,
+                poster: playRaw.Poster || undefined,
               }
             : undefined,
         };

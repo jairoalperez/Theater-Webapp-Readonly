@@ -136,7 +136,7 @@ const ActorPage: React.FC = () => {
           return {
             characterId: cid,
             name: c.Name ?? "",
-            image: c.Image || null,
+            image: c.Image || undefined,
             principal: String(c.Principal ?? "0") === "1",
             playId: pid,
             playTitle: play?.Title ?? "",
@@ -155,8 +155,8 @@ const ActorPage: React.FC = () => {
           skinColor: raw.SkinColor ?? undefined,
           eyeColor: raw.EyeColor ?? undefined,
           hairColor: raw.HairColor ?? undefined,
-          frontImage: raw.FrontImage || null,
-          fullBodyImage: raw.FullBodyImage || null,
+          frontImage: raw.FrontImage || undefined,
+          fullBodyImage: raw.FullBodyImage || undefined,
           characters: myChars,
           principals: myChars.filter((x) => x.principal).length, // por si lo usas
         };

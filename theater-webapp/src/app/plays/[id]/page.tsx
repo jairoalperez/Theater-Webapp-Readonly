@@ -112,14 +112,14 @@ const PlayPage: React.FC = () => {
             return {
               characterId: cid,
               name: c.Name ?? "",
-              image: c.Image || null,
+              image: c.Image || undefined,
               principal: String(c.Principal ?? "0") === "1",
               actor: a
                 ? {
                     actorId: aid!,
                     firstName: (a.FirstName ?? "").trim(),
                     lastName: (a.LastName ?? "").trim(),
-                    frontImage: a.FrontImage || null,
+                    frontImage: a.FrontImage || undefined,
                   }
                 : undefined,
             } as PlayCharacter;

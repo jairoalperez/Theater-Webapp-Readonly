@@ -105,8 +105,8 @@ const ActorsList: React.FC = () => {
             lastName: (r.LastName ?? "").trim(),
             gender: r.Gender ?? undefined,
             age: calcAge(r.DOB),
-            frontImage: r.FrontImage || null,
-            fullBodyImage: r.FullBodyImage || null,
+            frontImage: r.FrontImage || undefined,
+            fullBodyImage: r.FullBodyImage || undefined,
             characters: list.length,
             principals,
           } as ActorShort;
