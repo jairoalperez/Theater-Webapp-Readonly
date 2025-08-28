@@ -1,0 +1,810 @@
+"CharacterId","Name","Description","Age","Gender","Principal","Image","ActorId","PlayId"
+1,Muñeca Fea,,20,Female,1,,156,70
+2,El Cascanueces,,45,Male,0,,141,70
+3,La Cascanueces,,40,Female,0,,145,70
+4,Baby Cascanueces,,8,Female,0,,,70
+5,Barbie,,22,Female,0,,147,70
+6,Barbie,,22,Female,0,,175,70
+7,Ken,,25,Male,0,,124,70
+8,Soldadito,,35,Male,0,,123,70
+9,Astronauta,,30,Male,0,,117,70
+10,Vaquero,,30,Male,0,,120,70
+11,Osito,,10,Male,0,,127,70
+12,Osito,,10,Male,0,,132,70
+13,Plumero,,20,Female,0,,146,70
+14,Sacudidor,,20,Female,0,,161,70
+15,Araña,,15,Female,0,,148,70
+16,Araña,,15,Female,0,,119,70
+17,El Raton,,35,Male,0,,121,70
+18,El Juguetero,,65,Male,0,,138,70
+19,Darlene,,20,Female,1,,157,71
+20,Joleen,,19,Female,1,,148,71
+21,Scott,,21,Male,1,,123,71
+22,Melanie,,20,Female,0,,150,71
+23,Pequeño Juan,,19,Male,0,,127,71
+24,Newton,,21,Male,0,,118,71
+25,Profesor Blass,,56,Male,0,,126,71
+26,Doctora,,45,Female,0,,171,71
+27,Uno,,20,Female,0,,151,71
+28,Dos,,20,Female,0,,145,71
+29,Tres,,20,Female,0,,156,71
+30,Cuatro,,20,Male,0,,124,71
+31,Cinco,,20,Male,0,,117,71
+32,Seis,,20,Male,0,,120,71
+33,Siete,,20,Male,0,,121,71
+34,Ocho,,20,Female,0,,119,71
+35,Nueve,,20,Female,0,,152,71
+36,Diez,,20,Other,0,,173,71
+37,Grinch,,30,Male,1,,126,72
+38,Sra Quien,,30,Female,0,,147,72
+39,Sra Quien,,30,Female,0,,153,72
+40,Sr Quien,,30,Male,0,,117,72
+41,Sr Quien,,30,Male,0,,123,72
+42,Niño,,8,Male,0,,,72
+44,Niño,,8,Female,0,,,72
+47,Amado Amancio,,536,Male,1,,126,73
+48,Igor,,354,Male,0,,117,73
+49,Juana,,256,Female,0,,147,73
+50,Testimonio,,20,Male,0,,127,73
+51,Antoine,,21,Male,0,,118,73
+52,Policia,,35,Male,0,,129,73
+53,Antoine Niño,,8,Male,0,,,73
+54,Eva,,21,Female,0,,149,73
+55,Joe,,22,Male,0,,125,73
+56,Mathew,,22,Male,0,,123,73
+57,Drek,,230,Male,0,,121,73
+58,Priscilla,,21,Female,0,,153,73
+59,Anette,,22,Female,0,,162,73
+60,Dolly,,30,Female,0,,146,73
+61,Eleonor,,16,Female,0,,154,73
+62,Jack,,30,Male,0,,120,73
+63,Coraline,,400,Female,0,,156,73
+64,Muchacho,,16,Male,1,,118,74
+65,Padre,,40,Male,0,,117,74
+66,Abuelo,,60,Male,0,,126,74
+67,Madre,,35,Female,0,,145,74
+68,Luis,,20,Male,0,,123,74
+69,Andrea,,18,Female,0,,149,74
+70,Miguel,,19,Male,0,,129,74
+71,Andres,,20,Male,0,,128,74
+72,Winifred,,340,Female,1,,146,75
+73,Sara,,339,Female,1,,147,75
+74,Mary,,338,Female,1,,145,75
+75,Thackery,,18,Male,0,,124,75
+76,Billy,,16,Male,0,,120,75
+77,Max,,16,Male,0,,128,75
+78,Allison,,15,Female,0,,157,75
+79,Jenny,,16,Female,0,,148,75
+80,Ernie,,30,Male,0,,117,75
+81,Dave,,30,Male,0,,121,75
+82,Maestra Olin,,55,Female,0,,155,75
+83,Alonso Quijano,,50,Male,1,,126,76
+84,Sancho Panza,,45,Male,0,,131,76
+85,Rocinante,,30,Male,0,,,76
+86,Dulcinea,,30,Female,0,,159,76
+87,El Cura,,60,Male,0,,122,76
+88,El Barbero,,35,Male,0,,123,76
+89,Sanson Carrasco,,40,Male,0,,129,76
+90,Hermia,,16,Female,1,,175,77
+91,Lisandro,,18,Male,1,,129,77
+92,Demetrio,,20,Male,1,,125,77
+93,Helena,,18,Female,1,,150,77
+94,Teseo,,40,Male,0,,127,77
+95,Hipolita,,35,Female,0,,153,77
+96,Egeo,,60,Male,0,,139,77
+97,Pug,,20,Male,0,,130,77
+98,Oberon,,40,Male,0,,122,77
+99,Titania,,40,Female,0,,147,77
+100,Pedro,,40,Male,0,,121,77
+101,Artesano,,30,Male,0,,117,77
+102,Artesano,,30,Male,0,,118,77
+103,Artesano,,30,Male,0,,123,77
+104,Bottom,,25,Male,0,,124,77
+105,Marianne,,30,Female,1,,147,78
+106,Roland,,32,Male,1,,122,78
+107,Dulce Maria,,62,Female,1,,123,80
+108,Lupita,,63,Female,0,,122,80
+109,Charito,,55,Female,0,,117,80
+110,Pancha,,57,Female,0,,129,80
+111,Marta,,60,Female,0,,118,80
+112,Juan Pablo,,26,Male,1,,118,82
+113,Maria,,24,Female,1,,153,82
+114,Hector,,28,Male,0,,123,82
+115,Allende,,26,Male,0,,117,82
+116,Nina,,23,Female,0,,151,82
+117,Doctor,,38,Male,0,,121,82
+118,Esther,,40,Female,1,,147,83
+119,Virginia,,17,Female,1,,148,83
+120,Ricarda,,38,Female,0,,149,83
+121,Perico,,30,Male,0,,124,83
+122,Vecino,,35,Male,0,,125,83
+123,Rosalia,,45,Female,0,,145,83
+124,Torcuato,,25,Male,0,,120,83
+125,Sotillo,,40,Female,0,,154,83
+126,Pedroso,,50,Male,0,,122,83
+127,Elle,,17,Female,1,,148,84
+128,Warner,,18,Male,0,,124,84
+129,Emmet,,18,Male,0,,123,84
+130,Vivian,,17,Female,0,,149,84
+131,Callahan,,17,Male,0,,132,84
+132,Paulette,,18,Female,0,,152,84
+133,Brooke,,16,Female,0,,175,84
+134,Cady,,16,Female,1,,151,85
+135,Regina,,16,Female,1,,148,85
+136,Gretchen,,16,Female,0,,119,85
+137,Karen,,16,Female,0,,175,85
+138,Janis,,16,Female,0,,152,85
+139,Damian,,16,Male,0,,130,85
+140,Aaron,,16,Male,0,,124,85
+141,Norbury,,32,Female,0,,145,85
+142,Cristian,,30,Male,1,,127,86
+143,Dora,,28,Female,0,,150,86
+144,Susana,,8,Female,0,,,86
+145,Alfredo,,25,Male,0,,118,86
+146,Sr Traki,,50,Male,0,,121,86
+147,Juez,,55,Male,0,,122,86
+148,Frankestein,,40,Male,1,,117,87
+149,Igor,,28,Male,0,,130,87
+150,Frank,,0,Male,1,,127,87
+151,Elizabeth,,30,Female,0,,153,87
+152,Burgomaestre,,45,Male,0,,121,87
+153,David,,40,Male,0,,125,87
+154,Andy,,35,Male,0,,124,87
+155,Monica,,30,Female,0,,150,87
+156,Corie,,23,Female,1,,149,88
+157,Paul,,28,Male,1,,122,88
+158,Ethel,,27,Female,0,,145,88
+159,Victor,,28,Male,0,,129,88
+160,Mensajero,,25,Male,0,,120,88
+161,Dracula,,486,Male,1,,121,89
+162,Jonathan,,20,Male,1,,118,89
+163,Mina,,19,Female,1,,119,89
+164,Lucy,,19,Female,0,,175,89
+165,Van Helsing,,45,Male,0,,117,89
+166,Renfield,,55,Male,0,,122,89
+167,Dr. Seward,,40,Male,0,,124,89
+168,Draculin,,200,Male,0,,131,89
+169,Draculon,,200,Male,0,,120,89
+170,Larry,,26,Male,1,,118,90
+171,Maria,,20,Female,1,,145,90
+172,Carla,,19,Female,0,,150,90
+173,Van Helsing,,48,Male,0,,117,90
+174,Billy,,21,Male,0,,120,90
+175,Bob,,22,Male,0,,128,90
+176,Dr Harris,,48,Male,0,,122,90
+177,Alcalde,,52,Male,0,,126,90
+178,Vieja,,75,Female,0,,155,90
+179,Aladdin,,18,Male,1,,118,91
+180,Genio,,659,Male,1,,127,91
+181,Jasmin,,16,Female,1,,154,91
+182,Jafar,,40,Male,1,,121,91
+183,Abu,,15,Male,0,,123,91
+184,Iago,,25,Male,0,,120,91
+185,Sultan,,55,Male,0,,128,91
+186,Razoul,,30,Male,0,,125,91
+187,Alfombra,,800,Other,0,,122,91
+188,Dorothy,,14,Female,1,,151,92
+189,Espantapajaros,,21,Male,0,,117,92
+190,Hombre de Hojalata,,20,Male,0,,121,92
+191,Leon Cobarde,,6,Male,0,,118,92
+192,Mago de Oz,,55,Male,0,,120,92
+193,Bruja Mala del Este,,21,Female,0,,154,92
+194,Bruja Mala del Oeste,,20,Female,0,,146,92
+195,Bruja Buena del Norte,,21,Female,0,,147,92
+196,Bruja Buena del Sur,,21,Female,0,,149,92
+197,Winkie,,30,Male,0,,125,92
+198,Winkie,,28,Male,0,,129,92
+199,Winkie,,27,Male,0,,137,92
+200,Munchkie,,35,Male,0,,128,92
+201,Munchkie,,22,Male,0,,130,92
+202,Munchkie,,36,Male,0,,134,92
+203,Mono Alado,,40,Male,0,,123,92
+204,Mono Alado,,38,Male,0,,124,92
+205,Tia Emma,,48,Female,0,,153,92
+206,Tio Henry,,55,Male,0,,122,92
+207,Zucca,,15,Female,1,,119,93
+208,Zulma,,16,Female,1,,152,93
+209,Nemecio,,35,Male,0,,118,93
+210,Yocasta,,31,Female,0,,154,93
+211,Lisiño,,28,Male,0,,117,93
+212,Ningua,,22,Female,0,,150,93
+213,Yemin,,24,Male,0,,128,93
+214,Don Nataniel,,40,Male,0,,122,93
+215,Doña Laura,,30,Female,0,,153,93
+216,Doña Gabriela,,28,Female,0,,168,93
+217,Raquel,,16,Female,0,,148,93
+218,Diego,,20,Male,0,,124,93
+219,Marcela,,14,Female,0,,151,93
+220,Fray Andres,,50,Male,0,,127,93
+221,Hermana Vicentella,,35,Female,0,,165,93
+222,Hermana Lameda,,35,Female,0,,166,93
+223,Julia,,26,Female,0,,161,93
+224,Cesarea,,30,Female,0,,163,93
+225,Tabata,,33,Female,0,,158,93
+226,Luisidio,,28,Male,0,,125,93
+227,Shrek,,28,Male,1,,117,94
+228,Burro,,25,Male,0,,131,94
+229,Fiona Princesa,,21,Female,1,,148,94
+230,Fiona,,21,Female,1,,162,94
+231,Gato con Botas,,10,Male,0,,135,94
+232,Farquaad,,35,Male,0,,120,94
+233,Hada Madrina,,50,Female,0,,145,94
+234,Principe Encantador,,25,Male,0,,124,94
+235,Rey,,60,Male,0,,122,94
+236,Reina,,45,Female,0,,146,94
+237,Pinocchio,,10,Male,0,,121,94
+238,Jengibre,,15,Male,0,,123,94
+239,Lobo Feroz,,30,Male,0,,118,94
+240,Raton Ciego,,28,Male,0,,128,94
+241,Cerdito Trabajador,,30,Male,0,,130,94
+242,Cerdito Gracioso,,28,Male,0,,134,94
+243,Cerdito Perezoso,,29,Male,0,,143,94
+244,Cenicienta,,25,Female,0,,149,94
+245,Blanca Nieves,,27,Female,0,,153,94
+246,Rapunzel,,24,Female,0,,175,94
+247,Bella Durmiente,,26,Female,0,,147,94
+248,Robin Hood,,30,Male,0,,125,94
+249,Rapunzel,,18,Female,1,,148,95
+250,Flyn,,24,Male,1,,125,95
+251,Gothel,,118,Female,1,,145,95
+252,Stabbington,,30,Male,0,,127,95
+253,Stabbington,,32,Male,0,,132,95
+254,Capitan,,50,Male,0,,122,95
+255,Soldado,,30,Male,0,,121,95
+256,Soldado,,35,Male,0,,123,95
+257,Rufian Lider,,28,Male,0,,124,95
+258,Rufian Borracho,,22,Male,0,,130,95
+259,Rufian Cupido,,25,Male,0,,120,95
+260,Rufian Garfio,,30,Male,0,,128,95
+261,Rufian Vikingo,,27,Male,0,,129,95
+262,Rey,,48,Male,0,,133,95
+263,Reina,,40,Female,0,,146,95
+264,Scrooge,,70,Male,1,,126,96
+265,Fantasma Pasado,,30,Female,0,,145,96
+266,Fantasma Presente,,40,Male,0,,120,96
+267,Fantasma Futuro,,50,Other,0,,173,96
+268,Bob,,45,Male,0,,128,96
+269,Peter,,40,Male,0,,124,96
+270,Jacob,,63,Male,0,,121,96
+271,Sr. Fezziwig,,60,Male,0,,127,96
+272,Fred,,40,Male,0,,123,96
+273,Joe,,45,Male,0,,125,96
+274,Sra. Cratchit,,40,Female,0,,146,96
+275,Belinda,,30,Female,0,,175,96
+276,Macbeth,,30,Male,1,,121,97
+277,Lady Macbeth,,25,Female,1,,156,97
+278,Banquo,,30,Male,0,,123,97
+279,Varon Ross,,40,Male,0,,125,97
+280,Rey Duncan,,50,Male,0,,122,97
+281,Malcolm,,30,Male,0,,141,97
+282,Donalbain,,28,Male,0,,128,97
+283,Macduff,,35,Male,0,,120,97
+284,Siward,,28,Male,0,,124,97
+285,Bruja 1,,500,Female,0,,145,97
+286,Bruja 2,,500,Female,0,,150,97
+287,Bruja 3,,500,Female,0,,119,97
+288,Otelo,,28,Male,1,,117,98
+289,Desdemona,,20,Female,1,,148,98
+290,Rodrigo,,25,Male,0,,124,98
+291,Yago,,30,Male,0,,120,98
+292,Casio,,27,Male,0,,118,98
+293,Brabancio,,40,Male,0,,133,98
+294,Emilia,,22,Female,0,,119,98
+295,Bianca,,19,Female,0,,157,98
+296,Bernarda,,60,Female,1,,146,99
+297,Angustias,,39,Female,1,,147,99
+298,Adela,,20,Female,1,,119,99
+299,Magdalena,,30,Female,0,,151,99
+300,Amelia,,27,Female,0,,163,99
+301,Martirio,,24,Female,0,,152,99
+302,Poncia,,60,Female,0,,145,99
+303,Criada,,30,Female,0,,150,99
+304,Maria Josefa,,80,Female,0,,158,99
+305,Prudencia,,55,Female,0,,149,99
+306,Antonio,,30,Male,1,,129,100
+307,Bassanio,,28,Male,1,,123,100
+308,Shylock,,35,Male,1,,120,100
+309,Porcia,,21,Female,0,,151,100
+310,Nerissa,,20,Female,0,,150,100
+311,Graziano,,25,Male,0,,125,100
+312,Lorenzo,,27,Male,0,,117,100
+313,Jessica,,21,Female,0,,152,100
+314,Erik,,40,Male,1,,121,101
+315,Christine,,25,Female,1,,119,101
+316,Raoul,,30,Male,1,,117,101
+317,Philippe,,50,Male,0,,126,101
+318,Madame Giry,,45,Female,0,,146,101
+319,Meg Giry,,25,Female,0,,152,101
+320,El Persa,,40,Male,0,,122,101
+321,Carlotta,,30,Female,0,,147,101
+322,Armand,,28,Male,0,,135,101
+323,Fermin,,29,Male,0,,131,101
+324,Elphaba,,19,Female,1,,152,102
+325,Nessarose,,18,Female,0,,119,102
+326,Melena,,22,Female,0,,146,102
+327,Clerigo,,50,Male,0,,133,102
+328,Comadrona,,65,Female,0,,155,102
+329,Boq,,20,Male,0,,130,102
+330,Fiyero,,20,Male,0,,124,102
+331,Crope,,19,Male,0,,134,102
+332,Tibbett,,19,Male,0,,128,102
+333,Glinda,,18,Female,1,,148,102
+334,Mago de Oz,,50,Male,0,,120,102
+335,Sra Morrible,,45,Female,0,,145,102
+336,Donna,,41,Female,1,,146,103
+337,Sophie,,18,Female,1,,151,103
+338,Sam,,43,Male,0,,118,103
+339,Bill,,45,Male,0,,117,103
+340,Harry,,40,Male,0,,123,103
+341,Sky,,20,Male,0,,125,103
+342,Tanya,,41,Female,0,,147,103
+343,Rosie,,41,Female,0,,149,103
+344,Ali,,18,Female,0,,152,103
+345,Lisa,,17,Female,0,,119,103
+346,Cura,,45,Male,0,,122,103
+347,Tenor,,21,Male,0,,124,103
+348,Eddie,,20,Male,0,,134,103
+349,Tracy Turnblad,,15,Female,1,,160,104
+350,Edna Turnblad,,40,Female,1,,127,104
+351,Amber Von Tusle,,16,Female,0,,175,104
+352,Velma Von Tusle,,38,Female,0,,147,104
+353,Penny Pingleton,,15,Female,0,,148,104
+354,Link Larkin,,17,Male,0,,124,104
+355,Maybelle,,16,Female,0,,172,104
+356,Seaweed,,16,Male,0,,118,104
+357,Wilbur Turnblad,,45,Male,0,,122,104
+358,Corny Collins,,40,Male,0,,133,104
+359,Little Inez,,17,Female,0,,150,104
+360,Prudy Pingleton,,35,Female,0,,149,104
+361,Mister Pinky,,45,Male,0,,121,104
+362,Frank,,40,Other,1,,173,105
+363,Brad,,26,Male,1,,117,105
+364,Janet,,23,Female,1,,119,105
+365,Rocky,,0,Male,0,,142,105
+366,Riff,,25,Male,0,,118,105
+367,Magenta,,20,Female,0,,150,105
+368,Columbia,,20,Female,0,,156,105
+369,Eddie,,35,Male,0,,131,105
+370,Everett,,50,Male,0,,140,105
+371,Narrador,,60,Male,0,,126,105
+372,Sheryl,,16,Female,1,,151,106
+373,Victor,,18,Male,1,,121,106
+374,Aran,,17,Male,1,,117,106
+375,Rosmery,,16,Female,1,,119,106
+376,Hendrick,,17,Male,0,,124,106
+377,Oriana,,16,Female,0,,148,106
+378,Jorge,,18,Male,0,,123,106
+379,Kelly,,17,Female,0,,147,106
+380,Gustavo,,17,Male,0,,125,106
+381,Paola,,16,Female,0,,157,106
+382,Claudia,,16,Female,0,,149,106
+383,Ricardo,,16,Male,0,,118,106
+384,Rosangelica,,16,Female,0,,153,106
+385,Gabriel,,18,Male,0,,131,106
+386,Yuvanna,,20,Female,0,,146,106
+387,Alejandro,,22,Male,0,,127,106
+388,Luciano,,18,Male,0,,122,106
+389,Vanessa,,16,Female,0,,167,106
+390,Marigaby,,16,Female,0,,163,106
+391,Yelitza,,16,Female,0,,162,106
+392,Mandy,,16,Female,0,,159,106
+393,Barbara,,14,Female,0,,164,106
+394,Nicolas,,14,Male,0,,128,106
+395,Alfredo,,14,Male,0,,130,106
+396,Juan Carlos,,14,Male,0,,120,106
+397,Bambino,,17,Male,0,,135,106
+398,Humberto,,18,Male,0,,129,106
+399,Porrista 1,,16,Female,0,,152,106
+400,Porrista 2,,16,Female,0,,175,106
+401,Porrista 3,,16,Female,0,,166,106
+402,Porrista 4,,16,Female,0,,167,106
+403,Nathaly,,16,Female,0,,150,106
+404,Director Granadillo,,60,Male,0,,126,106
+405,Magaly,,45,Female,0,,145,106
+406,Buddy,,30,Male,1,,125,107
+407,Walter,,60,Male,0,,127,107
+408,Emily,,28,Female,0,,153,107
+409,Michael,,12,Male,0,,,107
+410,Jovie,,25,Female,0,,148,107
+411,Santa,,2000,Male,0,,132,107
+412,Deb,,40,Female,0,,119,107
+413,Greenway,,50,Male,0,,121,107
+414,Elfo 1,,500,Male,0,,130,107
+415,Elfo 2,,500,Male,0,,128,107
+416,Elfo 3,,500,Male,0,,135,107
+417,Elfo 4,,500,Male,0,,120,107
+418,Elfo 5,,500,Male,0,,134,107
+419,Sonny,,30,Male,1,,117,108
+420,Ricardo,,32,Male,1,,123,108
+421,El Capo,,40,Male,0,,118,108
+422,Isabella,,27,Female,0,,149,108
+423,Castillo,,31,Male,0,,121,108
+424,Gina,,29,Female,0,,146,108
+425,Trudy,,28,Female,0,,153,108
+426,Stan,,25,Male,0,,120,108
+427,Larry,,24,Male,0,,124,108
+428,Lou,,25,Male,0,,128,108
+429,Platano,,30,Male,0,,125,108
+430,Caraota,,29,Male,0,,129,108
+431,Mia,,24,Female,1,,147,109
+432,Sebastian,,27,Male,1,,133,109
+433,Keith,,29,Male,0,,118,109
+434,Laura,,35,Female,0,,149,109
+435,Greg,,30,Male,0,,123,109
+436,Tracy,,25,Female,0,,119,109
+437,Alexis,,24,Female,0,,148,109
+438,Kaitlin,,23,Female,0,,152,109
+439,Jo,,20,Female,1,,119,110
+440,Destry,,24,Male,1,,120,110
+441,Kent,,28,Male,0,,125,110
+442,Washington,,30,Male,0,,129,110
+443,Jordan,,28,Male,0,,117,110
+444,Ruth,,25,Female,0,,152,110
+445,Percy,,26,Male,0,,124,110
+446,El Alcalde,,50,Male,0,,126,110
+447,Felipe,,30,Male,1,,125,111
+448,Lupita,,30,Female,0,,148,111
+449,Billo,,50,Male,0,,126,111
+450,Cheo,,30,Male,0,,118,111
+451,Mariela,,20,Female,0,,151,111
+452,Maria,,28,Female,0,,147,111
+453,Lucia,,55,Female,0,,145,111
+454,Sra Prieto,,40,Female,0,,146,111
+455,Portabales,,38,Male,0,,129,111
+456,Pocahontas,,18,Female,1,,154,112
+457,John Smith,,25,Male,1,,124,112
+458,Powhatan,,40,Male,0,,127,112
+459,Ratcliffe,,38,Male,0,,131,112
+460,Kocoum,,26,Male,0,,118,112
+461,Nakoma,,35,Female,0,,145,112
+462,Willow,,30,Female,0,,146,112
+463,Meeko,,15,Male,0,,130,112
+464,Flit,,16,Male,0,,128,112
+465,Kuzco,,20,Male,1,,118,113
+466,Pacha,,40,Male,0,,122,113
+467,Izma,,60,Female,1,,145,113
+468,Kronk,,28,Male,0,,127,113
+469,Chicha,,35,Female,0,,154,113
+470,Bucky,,15,Male,0,,130,113
+471,Guardian,,40,Male,0,,132,113
+472,Matta,,60,Female,0,,155,113
+473,Guardia,,30,Male,0,,125,113
+474,Guardia,,30,Male,0,,129,113
+475,Aurora,,16,Female,1,,149,115
+476,Felipe,,20,Male,0,,123,115
+477,Malefica,,50,Female,1,,146,115
+478,Fauna,,500,Female,0,,145,115
+479,Sol,,500,Female,0,,150,115
+480,Flora,,500,Female,0,,154,115
+481,Stefan,,50,Male,0,,122,115
+482,Leah,,45,Female,0,,153,115
+483,Marcos Perez Jimenez,,44,Male,1,,117,117
+484,Eloisa Contreras,,37,Female,0,,146,117
+485,Pedro Estrada,,52,Male,0,,123,117
+486,Romulo Bentancourt,,50,Male,0,,121,117
+487,Juan Vicente Gomez,,58,Male,0,,120,117
+488,Medina Angarita,,61,Male,0,,126,117
+489,Rafael Caldera,,42,Male,0,,122,117
+490,Jose David,,30,Male,1,,121,118
+491,Paula Katerina,,16,Female,1,,148,118
+492,Adalinda,,16,Female,1,,119,118
+493,Reinaldo,,20,Male,1,,117,118
+494,Poeta,,50,Male,0,,126,118
+495,Niña Doña,,46,Female,0,,146,118
+496,Padre Rosario,,60,Male,0,,136,118
+497,Ofelia,,26,Female,0,,154,118
+498,Nuris,,16,Female,0,,151,118
+499,Amaranta,,16,Female,0,,152,118
+500,Rebeca,,16,Female,0,,150,118
+501,Octavio,,20,Male,0,,125,118
+502,Gualberto,,21,Male,0,,123,118
+503,Lazaro,,20,Male,0,,118,118
+504,Hermana Chuchita,,24,Female,0,,169,118
+505,Madre Virginia,,45,Female,0,,170,118
+506,Raimundo Sarmiento,,34,Male,0,,129,118
+507,Teotiste,,40,Female,0,,145,118
+508,Don Ingerencio,,51,Male,0,,122,118
+509,Doña Fortuna,,46,Female,0,,149,118
+510,Melquiades,,30,Male,0,,143,118
+511,Monseñor Mescote,,55,Male,0,,127,118
+512,Monseñor Buendia,,60,Male,0,,138,118
+513,Vendedora de Suspiros,,40,Female,0,,158,118
+514,Periodiquera,,32,Female,0,,159,118
+515,Limpiabotas,,30,Male,0,,137,118
+516,Simba,,20,Male,1,,124,119
+517,Nala,,20,Female,0,,149,119
+518,Scar,,45,Male,1,,126,119
+519,Timon,,30,Male,0,,125,119
+520,Pumba,,30,Male,0,,128,119
+521,Zazu,,50,Male,0,,120,119
+522,Mufasa,,40,Male,0,,122,119
+523,Sarabi,,40,Female,0,,146,119
+524,Rafiki,,80,Male,0,,123,119
+525,Hiena 1,,30,Male,0,,118,119
+526,Hiena 2,,25,Female,0,,145,119
+527,Hiena 3,,25,Male,0,,130,119
+528,Bella,,18,Female,1,,147,120
+529,Bestia,,25,Male,1,,127,120
+530,Principe,,20,Male,0,,124,120
+531,Gaston,,24,Male,1,,122,120
+532,Lefou,,20,Male,0,,128,120
+533,Maurice,,40,Male,0,,123,120
+534,Lumiere,,45,Male,0,,121,120
+535,Din Don,,50,Male,0,,117,120
+536,Sra Potts,,40,Female,0,,160,120
+537,Chip,,8,Male,0,,,120
+538,Plumet,,30,Female,0,,148,120
+539,Cocina,,40,Female,0,,146,120
+540,Librero,,25,Male,0,,120,120
+541,Armario,,30,Male,0,,118,120
+542,Quasimodo,,18,Male,1,,117,121
+543,Esmeralda,,20,Female,1,,150,121
+544,Frollo,,50,Male,1,,121,121
+545,Phoebus,,30,Male,1,,122,121
+546,Clopin,,40,Male,0,,118,121
+547,Pierre Gringoire,,35,Male,0,,120,121
+548,Negrin,,38,Male,0,,129,121
+549,Archidiacono,,50,Male,0,,127,121
+550,Victor,,500,Male,0,,131,121
+551,Hugo,,500,Male,0,,126,121
+552,Laverne,,500,Female,0,,145,121
+553,Paquette,,20,Female,0,,154,121
+554,Jehan Frollo,,40,Male,0,,124,121
+555,Robin,,35,Male,0,,125,121
+556,Fleurdelys,,25,Female,0,,146,121
+557,Tristan,,40,Male,0,,133,121
+558,Charmolue,,38,Male,0,,173,121
+559,Hercules,,18,Male,1,,125,122
+560,Phil,,400,Male,0,,130,122
+561,Hades,,1000,Male,1,,120,122
+562,Megara,,21,Female,1,,153,122
+563,Zeus,,2000,Male,0,,127,122
+564,Hera,,1600,Female,0,,161,122
+565,Musa 1,,1000,Female,0,,146,122
+566,Musa 2,,1000,Female,0,,149,122
+567,Musa 3,,1000,Female,0,,147,122
+568,Musa 4,,1000,Female,0,,154,122
+569,Musa 5,,1000,Female,0,,155,122
+570,Pena,,500,Male,0,,118,122
+571,Panico,,500,Male,0,,121,122
+572,Ciclope,,200,Male,0,,132,122
+573,Anfitrion,,60,Male,0,,138,122
+574,Alcmena,,55,Female,0,,160,122
+575,Moira 1,,10000,Female,0,,145,122
+576,Moira 2,,10000,Female,0,,156,122
+577,Moira 3,,10000,Female,0,,119,122
+578,Hermes,,1000,Male,0,,134,122
+579,Nessus,,1000,Male,0,,122,122
+580,Pegasus,,18,Male,0,,126,122
+581,Romeo,,20,Male,1,,118,123
+582,Julieta,,16,Female,1,,151,123
+583,Mercucio,,25,Other,0,,131,123
+584,Teobaldo,,24,Male,0,,117,123
+585,Benvolio,,22,Male,0,,123,123
+586,Fray Lorenzo,,50,Male,0,,136,123
+587,Sr Capuleto,,50,Male,0,,133,123
+588,Sra Capuleto,,30,Female,0,,153,123
+589,Sr Montesco,,45,Male,0,,126,123
+590,Sra Montesco,,40,Female,0,,154,123
+591,Paris,,28,Male,0,,121,123
+592,Nana,,45,Female,0,,155,123
+593,Rosalina,,21,Female,0,,147,123
+594,Boticario,,55,Other,0,,174,123
+595,Gregorio,,26,Male,0,,129,123
+596,Abraham,,25,Male,0,,137,123
+597,Pedro,,28,Male,0,,122,123
+598,Sanson,,21,Male,0,,125,123
+599,Fray Juan,,30,Male,0,,132,123
+600,Alcalde,,55,Male,0,,140,123
+601,Narrador,,30,Male,0,,120,123
+602,Narradora,,30,Female,0,,145,123
+603,Miguel,,12,Male,1,,,124
+604,Hector,,30,Male,1,,118,124
+605,Ernesto de la Cruz,,45,Male,1,,117,124
+606,Imelda,,60,Female,1,,146,124
+607,Coco,,90,Female,0,,155,124
+608,Abuelita,,60,Female,0,,145,124
+609,Papa,,40,Male,0,,126,124
+610,Mama,,38,Female,0,,150,124
+611,Tio Oscar,,50,Male,0,,124,124
+612,Tio Felipe,,50,Male,0,,123,124
+613,Tia Rosita,,75,Female,0,,148,124
+614,Tia Victoria,,72,Female,0,,149,124
+615,Frida Khalo,,47,Female,0,,120,124
+616,Papa Julio,,68,Male,0,,128,124
+617,Policia 1,,40,Male,0,,129,124
+618,Policia 2,,45,Male,0,,122,124
+619,Troy,,17,Male,1,,124,125
+620,Gabriella,,17,Female,1,,146,125
+621,Sharpay,,17,Female,1,,175,125
+622,Chad,,17,Male,0,,123,125
+623,Ryan,,17,Male,0,,135,125
+624,Taylor,,17,Female,0,,150,125
+625,Kelsi,,17,Female,0,,145,125
+626,Tiara Gold,,15,Female,0,,148,125
+627,Jimmy The Rocket,,15,Male,0,,120,125
+628,Donny,,15,Male,0,,130,125
+629,Darbus,,60,Female,0,,155,125
+630,Mr. Bolton,,40,Male,0,,126,125
+631,Martha Kox,,17,Female,0,,167,125
+632,Zeke,,17,Male,0,,118,125
+633,Jason,,17,Male,0,,125,125
+634,Phineas Barnum,,40,Male,1,,121,126
+635,Phillip,,25,Male,1,,124,126
+636,Charity,,38,Female,0,,149,126
+637,Jenny Lind,,30,Female,0,,146,126
+638,Anne,,19,Female,0,,119,126
+639,Lettie,,45,Female,0,,155,126
+640,Lord of Leeds,,38,Male,0,,132,126
+641,Charles Stratton,,25,Male,0,,130,126
+642,Strongman,,35,Male,0,,142,126
+643,Trapecista,,40,Male,0,,174,126
+644,Reina Victoria,,45,Female,0,,153,126
+645,Philo Barnum,,40,Male,0,,133,126
+646,Benjamin Hallet,,60,Male,0,,136,126
+647,James Bennet,,65,Male,0,,139,126
+648,Principe Hamlet,,20,Male,1,,123,127
+649,Fantasma Hamlet,,45,Male,0,,126,127
+650,Rey Claudio,,40,Male,1,,122,127
+651,Reina Gertrudis,,42,Female,0,,,127
+652,Ofelia,,17,Female,0,,,127
+653,Guardia 1,,35,Male,0,,132,127
+654,Guardia 2,,38,Male,0,,127,127
+655,Laertes,,22,Male,1,,121,127
+656,Polonio,,45,Male,0,,117,127
+657,Rosencrantz,,20,Male,0,,125,127
+658,Guildenstern,,20,Male,0,,129,127
+659,Fortimbras,,25,Male,0,,124,127
+660,Sepulturero,,48,Male,0,,131,127
+661,Horacio,,20,Male,0,,118,127
+662,Yorick,,40,Male,0,,174,127
+663,Shakespeare,,30,Male,0,,120,127
+664,Jean,,50,Male,1,,126,128
+665,Fantine,,24,Female,1,,146,128
+666,Javert,,60,Male,1,,127,128
+667,Cosette,,18,Female,1,,151,128
+668,Mario,,21,Male,1,,124,128
+669,Eponine,,25,Female,0,,152,128
+670,Sr Thenardier,,50,Male,0,,125,128
+671,Sra Thenardier,,45,Female,0,,145,128
+672,Enjolras,,25,Male,0,,118,128
+673,Gavroche,,28,Male,0,,130,128
+674,Myriel,,24,Male,0,,136,128
+675,Grantaire,,23,Male,0,,135,128
+676,Baptistina,,45,Female,0,,155,128
+677,Tholomyes,,28,Male,0,,121,128
+678,Simplicia,,40,Female,0,,149,128
+679,Champmathieu,,28,Male,0,,122,128
+680,Fauchelevent,,27,Male,0,,123,128
+681,Azelma,,26,Female,0,,119,128
+682,Jorge,,32,Male,0,,133,128
+683,Gillenormand,,50,Male,0,,139,128
+684,Courfeyrac,,21,Male,0,,120,128
+685,Combeferre,,29,Male,0,,129,128
+686,Feuilly,,30,Male,0,,140,128
+687,Prouvaire,,24,Male,0,,128,128
+688,Joly,,23,Male,0,,141,128
+689,Legle,,32,Male,0,,131,128
+690,Mabeuf,,60,Male,0,,132,128
+691,Jesucristo,,33,Male,1,,133,129
+692,Judas,,30,Male,1,,126,129
+693,Magdalena,,30,Female,1,,149,129
+694,Pilatos,,40,Male,0,,121,129
+695,Caifas,,60,Male,0,,122,129
+696,Anas,,30,Male,0,,124,129
+697,Simon,,30,Male,0,,125,129
+698,Herodes,,50,Male,0,,127,129
+699,Pedro,,30,Male,0,,118,129
+700,Juan,,30,Male,0,,117,129
+701,Santiago A,,30,Male,0,,123,129
+702,Andres,,30,Male,0,,120,129
+703,Felipe,,30,Male,0,,138,129
+704,Bartolome,,30,Male,0,,128,129
+705,Tomas,,30,Male,0,,131,129
+706,Mateo,,30,Male,0,,134,129
+707,Santiago Z,,30,Male,0,,137,129
+708,Tadeo,,30,Male,0,,135,129
+709,Mercader,,30,Male,0,,129,129
+710,Soldado 1,,30,Male,0,,144,129
+711,Soldado 2,,30,Male,0,,142,129
+712,Sacerdote,,60,Male,0,,141,129
+713,Alicia,,14,Female,1,,151,130
+714,Conejo,,30,Male,0,,120,130
+715,Sombrerero,,40,Male,0,,121,130
+716,Gato,,35,Male,0,,128,130
+717,Reina,,40,Female,0,,146,130
+718,Rey,,50,Male,0,,122,130
+719,Liebre,,30,Female,0,,156,130
+720,Oruga,,40,Male,0,,133,130
+721,Duquesa,,45,Female,0,,145,130
+722,Moana,,17,Female,1,,150,131
+723,Maui,,500,Male,1,,127,131
+724,Tala,,40,Female,0,,145,131
+725,Tui,,45,Male,0,,126,131
+726,Sina,,30,Female,0,,154,131
+727,Te Ka,,1000,Female,0,,152,131
+728,Te Fiti,,1000,Female,0,,119,131
+729,Heihei,,20,Male,0,,120,131
+730,Pua,,16,Male,0,,130,131
+731,Kakamora 1,,30,Male,0,,131,131
+732,Kakamora 2,,30,Male,0,,128,131
+733,Kakamora 3,,30,Male,0,,134,131
+734,Motunui 1,,35,Male,0,,121,131
+735,Motunui 2,,35,Male,0,,123,131
+736,Brillo,,300,Male,0,,132,131
+737,Arturo,,16,Male,1,,124,132
+738,Merlin,,400,Male,1,,120,132
+739,Madame Mim,,300,Female,1,,147,132
+740,Ginebra,,15,Female,0,,151,132
+741,Kay,,20,Male,0,,131,132
+742,Sir Hector,,40,Male,0,,122,132
+743,Rey Uther,,50,Male,0,,121,132
+744,Lancelot,,35,Male,0,,123,132
+745,Sir Gawain,,40,Male,0,,125,132
+746,Sir Agravain,,40,Male,0,,117,132
+747,Publerino 1,,30,Male,0,,128,132
+748,Publerino 2,,40,Male,0,,129,132
+749,Publerino 3,,28,Female,0,,154,132
+750,Publerino 4,,30,Female,0,,159,132
+751,Publerino 5,,25,Female,0,,164,132
+752,Publerino 6,,35,Male,0,,138,132
+753,Moises,,30,Male,1,,123,133
+754,Ramses,,31,Male,1,,122,133
+755,Sefora,,28,Female,0,,153,133
+756,Yojebed,,35,Female,0,,146,133
+757,Miriam,,30,Female,0,,147,133
+758,Aaron,,29,Male,0,,121,133
+759,Seti I,,50,Male,0,,117,133
+760,Tuya,,48,Female,0,,152,133
+761,Oliver,,20,Male,1,,117,134
+762,Jennifer,,18,Female,1,,119,134
+763,Estelio,,21,Male,0,,125,134
+764,Estrefani,,19,Female,0,,151,134
+765,Mario,,21,Male,0,,127,134
+766,Cheli,,18,Female,0,,175,134
+767,Serafina,,19,Female,0,,152,134
+768,Chepe,,22,Male,0,,118,134
+769,Isadora,,40,Female,0,,147,134
+770,Malaquias,,50,Male,0,,126,134
+771,Dr Cerezo,,45,Male,0,,136,134
+772,Padre Kiko Piedra,,60,Male,0,,139,134
+773,Seredorio,,28,Male,0,,144,134
+774,Jose Ingerencio,,48,Male,0,,140,134
+775,Pastora,,18,Female,0,,150,134
+776,Paloma,,18,Female,0,,164,134
+777,Pilar,,18,Female,0,,148,134
+778,Pooja,,18,Female,0,,157,134
+779,Patricia,,18,Female,0,,156,134
+780,Juan Pablo,,28,Male,1,,121,135
+781,Juan Pedro,,26,Male,1,,117,135
+782,Juan Marcos,,21,Male,1,,118,135
+783,Voz en Off,,50,Male,0,,126,135
+784,Luisa,,25,Female,0,,148,135
+785,Dulcinea,,26,Female,0,,146,135
+786,Persephone,,18,Female,0,,119,135
+787,Abigail,,30,Female,0,,150,135
+788,Euripides,,50,Male,0,,173,135
+789,Amanda,,45,Female,0,,154,135
+790,Euclidito,,14,Male,0,,130,135
+791,Jack,,1300,Male,1,,121,136
+792,Sally,,600,Female,1,,153,136
+793,Alcalde,,500,Male,0,,128,136
+794,Oogie Boogie,,800,Male,0,,173,136
+795,Flinkestein,,1000,Male,0,,120,136
+796,Lock,,200,Male,0,,130,136
+797,Barrel,,50,Male,0,,,136
+798,Shock,,400,Female,0,,152,136
+799,Mama Cadaver,,3000,Female,0,,155,136
+800,Payaso,,900,Male,0,,134,136
+801,Bruja,,1100,Female,0,,151,136
+802,Simon Brito,,23,Male,1,,117,137
+803,Ivan Noboa,,21,Male,1,,118,137
+804,Policia,,48,Male,0,,126,137
+805,Jack Frost,,300,Male,1,,124,138
+806,El Coco,,800,Male,1,,174,138
+807,Santa Claus,,1200,Male,0,,132,138
+808,Conejo de Pascua,,800,Male,0,,131,138
+809,Sandman,,500,Male,0,,173,138
+810,Hada de los Dientes,,1000,Female,0,,146,138
+811,Johan,,28,Male,1,,117,81
+812,Marianne,,26,Female,1,,157,81
