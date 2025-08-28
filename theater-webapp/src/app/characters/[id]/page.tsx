@@ -54,8 +54,6 @@ function parseCsv<T = any>(csvText: string): T[] {
     dynamicTyping: true,
     skipEmptyLines: true,
   });
-  const fatal = parsed.errors?.find((e) => e.fatal);
-  if (fatal) throw new Error(`CSV parse error: ${fatal.message}`);
   return parsed.data as T[];
 }
 

@@ -9,6 +9,7 @@ import Papa from "papaparse";
 import { Sleep } from "@/helpers/sleep";
 import type { ActorShort } from "@/types/actorShort";
 
+
 // === CSV paths (colócalos en /public/data/) ===
 const ACTORS_CSV_URL = "/data/actors.csv";
 const CHARACTERS_CSV_URL = "/data/characters.csv";
@@ -46,10 +47,6 @@ function parseCsv<T = any>(csvText: string): T[] {
     skipEmptyLines: true,
     // worker: true, // re-activa si el archivo crece
   });
-  if (parsed.errors?.length) {
-    const fatal = parsed.errors.find(e => e.fatal);
-    if (fatal) throw new Error(`CSV parse error: ${fatal.message}`);
-  }
   return parsed.data as T[];
 }
 
