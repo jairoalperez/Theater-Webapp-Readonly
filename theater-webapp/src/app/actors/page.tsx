@@ -75,7 +75,8 @@ const ActorsList: React.FC = () => {
   const [gender, setGender] = React.useState<string>("ALL");
 
   // === Sorting state ===
-  const [sortField, setSortField] = React.useState<SortField>(DEFAULT_SORT_FIELD);
+  const [sortField, setSortField] =
+    React.useState<SortField>(DEFAULT_SORT_FIELD);
   const [sortDir, setSortDir] = React.useState<SortDir>(DEFAULT_SORT_DIR);
 
   // Toggle filters panel
@@ -103,7 +104,8 @@ const ActorsList: React.FC = () => {
         const charsByActor = new Map<number, CsvCharacterRow[]>();
         for (const ch of charRows) {
           const aidRaw = ch.ActorId;
-          if (aidRaw === null || aidRaw === undefined || aidRaw === "") continue;
+          if (aidRaw === null || aidRaw === undefined || aidRaw === "")
+            continue;
           const aid =
             typeof aidRaw === "string" ? Number(aidRaw) : (aidRaw as number);
           if (!Number.isFinite(aid)) continue;
@@ -115,7 +117,9 @@ const ActorsList: React.FC = () => {
         // 4) Map to ActorShort (what ActorCard expects)
         const mapped: ActorShort[] = actorsRows.map((r) => {
           const actorId =
-            typeof r.ActorId === "string" ? Number(r.ActorId) : (r.ActorId as number);
+            typeof r.ActorId === "string"
+              ? Number(r.ActorId)
+              : (r.ActorId as number);
           const list = charsByActor.get(actorId) || [];
           const principals = list.filter(
             (x) => String(x.Principal ?? "0") === "1"
@@ -190,36 +194,34 @@ const ActorsList: React.FC = () => {
     const sorted = [...filtered].sort((a, b) => {
       const dir = sortDir === "asc" ? 1 : -1;
 
+      // Helper numbers safe
+      const aChars = a.characters ?? 0;
+      const bChars = b.characters ?? 0;
+      const aPrin = a.principals ?? 0;
+      const bPrin = b.principals ?? 0;
+      const aName = `${a.firstName ?? ""} ${a.lastName ?? ""}`.toLowerCase();
+      const bName = `${b.firstName ?? ""} ${b.lastName ?? ""}`.toLowerCase();
+
       if (sortField === "characters") {
-        if (a.characters === b.characters) {
+        if (aChars === bChars) {
           // tiebreaker by principals desc, then name asc
-          if (a.principals !== b.principals) {
-            return (a.principals - b.principals) * -1;
-          }
-          const an = `${a.firstName ?? ""} ${a.lastName ?? ""}`.toLowerCase();
-          const bn = `${b.firstName ?? ""} ${b.lastName ?? ""}`.toLowerCase();
-          return an.localeCompare(bn);
+          if (aPrin !== bPrin) return (aPrin - bPrin) * -1;
+          return aName.localeCompare(bName);
         }
-        return (a.characters - b.characters) * dir;
+        return (aChars - bChars) * dir;
       }
 
       if (sortField === "principals") {
-        if (a.principals === b.principals) {
+        if (aPrin === bPrin) {
           // tiebreaker by characters desc, then name asc
-          if (a.characters !== b.characters) {
-            return (a.characters - b.characters) * -1;
-          }
-          const an = `${a.firstName ?? ""} ${a.lastName ?? ""}`.toLowerCase();
-          const bn = `${b.firstName ?? ""} ${b.lastName ?? ""}`.toLowerCase();
-          return an.localeCompare(bn);
+          if (aChars !== bChars) return (aChars - bChars) * -1;
+          return aName.localeCompare(bName);
         }
-        return (a.principals - b.principals) * dir;
+        return (aPrin - bPrin) * dir;
       }
 
       // sortField === "name"
-      const an = `${a.firstName ?? ""} ${a.lastName ?? ""}`.toLowerCase();
-      const bn = `${b.firstName ?? ""} ${b.lastName ?? ""}`.toLowerCase();
-      return an.localeCompare(bn) * (sortDir === "asc" ? 1 : -1);
+      return aName.localeCompare(bName) * (sortDir === "asc" ? 1 : -1);
     });
 
     return sorted;
@@ -229,7 +231,9 @@ const ActorsList: React.FC = () => {
     return (
       <div className="flex justify-center">
         <div className={cn("mx-auto flex flex-col items-center p-4")}>
-          <h1 className="text-4xl font-bold mx-auto mb-8 mt-8 text-foreground">Actors</h1>
+          <h1 className="text-4xl font-bold mx-auto mb-8 mt-8 text-foreground">
+            Actors
+          </h1>
           <div className="h-56 w-full object-cover object-end flex items-center justify-center">
             <LoaderPinwheelIcon isAnimating={true} />
           </div>
@@ -242,7 +246,9 @@ const ActorsList: React.FC = () => {
     return (
       <div className="flex justify-center">
         <div className={cn("mx-auto flex flex-col items-center p-4")}>
-          <h1 className="text-4xl font-bold mx-auto mb-8 mt-8 text-foreground">Actors</h1>
+          <h1 className="text-4xl font-bold mx-auto mb-8 mt-8 text-foreground">
+            Actors
+          </h1>
           <div className="h-56 w-full object-cover object-end flex items-center justify-center">
             <div className="text-foreground">{error}</div>
           </div>
@@ -253,8 +259,14 @@ const ActorsList: React.FC = () => {
 
   return (
     <div className="flex justify-center pb-16">
-      <div className={cn("mx-auto flex flex-col items-center w-full max-w-7xl px-4")}>
-        <h1 className="text-4xl font-bold mx-auto mb-6 mt-8 text-foreground">Actors</h1>
+      <div
+        className={cn(
+          "mx-auto flex flex-col items-center w-full max-w-7xl px-4"
+        )}
+      >
+        <h1 className="text-4xl font-bold mx-auto mb-6 mt-8 text-foreground">
+          Actors
+        </h1>
 
         {/* === Top bar: controls summary + toggle === */}
         <div className="w-full mb-3 flex flex-wrap items-center gap-2">
@@ -300,7 +312,9 @@ const ActorsList: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-3">
               {/* Name */}
               <div className="flex flex-col xl:col-span-2">
-                <label className="text-sm text-muted-foreground mb-1">Name</label>
+                <label className="text-sm text-muted-foreground mb-1">
+                  Name
+                </label>
                 <input
                   type="text"
                   value={searchName}
@@ -312,7 +326,9 @@ const ActorsList: React.FC = () => {
 
               {/* Gender */}
               <div className="flex flex-col">
-                <label className="text-sm text-muted-foreground mb-1">Gender</label>
+                <label className="text-sm text-muted-foreground mb-1">
+                  Gender
+                </label>
                 <select
                   value={gender}
                   onChange={(e) => setGender(e.target.value)}
@@ -329,7 +345,9 @@ const ActorsList: React.FC = () => {
 
               {/* Sort by */}
               <div className="flex flex-col">
-                <label className="text-sm text-muted-foreground mb-1">Sort by</label>
+                <label className="text-sm text-muted-foreground mb-1">
+                  Sort by
+                </label>
                 <select
                   value={sortField}
                   onChange={(e) => setSortField(e.target.value as SortField)}
@@ -343,7 +361,9 @@ const ActorsList: React.FC = () => {
 
               {/* Direction */}
               <div className="flex flex-col">
-                <label className="text-sm text-muted-foreground mb-1">Direction</label>
+                <label className="text-sm text-muted-foreground mb-1">
+                  Direction
+                </label>
                 <select
                   value={sortDir}
                   onChange={(e) => setSortDir(e.target.value as SortDir)}
@@ -371,14 +391,19 @@ const ActorsList: React.FC = () => {
             </div>
 
             <div className="mt-3 text-xs text-muted-foreground">
-              Showing <span className="font-semibold">{filteredAndSorted.length}</span> of{" "}
-              <span className="font-semibold">{actors.length}</span> actors
+              Showing{" "}
+              <span className="font-semibold">{filteredAndSorted.length}</span>{" "}
+              of <span className="font-semibold">{actors.length}</span> actors
             </div>
           </div>
         )}
 
         {/* === Grid === */}
-        <div className={cn("grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4")}>
+        <div
+          className={cn(
+            "grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4"
+          )}
+        >
           {filteredAndSorted.map((actor) => (
             <Link key={actor.actorId} href={`/actors/${actor.actorId}`}>
               <ActorCard actor={actor} />
