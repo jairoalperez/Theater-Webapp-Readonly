@@ -16,14 +16,14 @@ const PLAYS_CSV_URL = "/data/play.csv";        // singular
 const CHARACTERS_CSV_URL = "/data/characters.csv";
 const ACTORS_CSV_URL = "/data/actors.csv";
 
-// Tipos crudos (con poster/format en minúsculas)
+// Raw CSV types (poster/format lowercase as per your note)
 type CsvPlayRow = {
   PlayId: number | string;
   Title: string;
   Genre?: string | null;
-  Format?: string | null;  // <-- minúscula
-  Poster?: string | null;  // <-- minúscula
-  Description?: string | null; // por si lo tienes
+  Format?: string | null;  // lowercase
+  Poster?: string | null;  // lowercase
+  Description?: string | null;
 };
 
 type CsvCharacterRow = {
@@ -76,6 +76,9 @@ const PlayPage: React.FC = () => {
   const [loading, setLoading] = React.useState<boolean>(true);
   const [error, setError] = React.useState<string | null>(null);
 
+  // Search state (character name OR actor name)
+  const [query, setQuery] = React.useState<string>("");
+
   React.useEffect(() => {
     let cancelled = false;
 
@@ -125,7 +128,6 @@ const PlayPage: React.FC = () => {
             } as PlayCharacter;
           });
 
-        // Usar poster/format en minúsculas; fallback a mayúsculas si existieran
         const poster = (playRaw as any).Poster ?? (playRaw as any).Poster ?? null;
         const format = (playRaw as any).Format ?? (playRaw as any).Format ?? "";
 
@@ -156,9 +158,25 @@ const PlayPage: React.FC = () => {
     };
   }, [playId]);
 
+  // Filter by query: matches character name OR actor full name
+  const visibleCharacters = React.useMemo(() => {
+    const list = play?.characters ?? [];
+    const q = query.trim().toLowerCase();
+    if (!q) return list;
+
+    return list.filter((c) => {
+      const inCharacter = (c.name ?? "").toLowerCase().includes(q);
+      const actorFull = c.actor
+        ? `${c.actor.firstName ?? ""} ${c.actor.lastName ?? ""}`.trim().toLowerCase()
+        : "";
+      const inActor = actorFull.includes(q);
+      return inCharacter || inActor;
+    });
+  }, [play, query]);
+
   return (
     <div className="flex justify-center pb-16">
-      <div className={cn("mx-auto flex flex-col items-center")}>
+      <div className={cn("mx-auto flex flex-col items-center w-full max-w-7xl px-4")}>
         {loading ? (
           <div className="h-56 w-full object-cover object-end flex items-center justify-center">
             <LoaderPinwheelIcon isAnimating={true} />
@@ -168,19 +186,34 @@ const PlayPage: React.FC = () => {
             <div className="text-foreground">{error}</div>
           </div>
         ) : (
-          <div>
+          <div className="w-full">
+            {/* Play header */}
             <div className="gap-4">{play && <PlayProfile play={play} />}</div>
-            <div className="flex justify-center">
-              <div className={cn("mx-auto flex flex-col items-center")}>
-                <h1 className="text-4xl font-bold mx-auto mb-8 mt-8 text-foreground">Characters</h1>
-                <div className={cn("grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4 p-4")}>
-                  {play?.characters?.map((character) => (
-                    <Link key={character?.characterId} href={`/characters/${character?.characterId}`}>
-                      <PlayCharacterCard character={character} />
-                    </Link>
-                  ))}
-                </div>
+
+            {/* Characters header + search (centered title, search below) */}
+            <div className="flex flex-col items-center w-full mt-8 mb-2">
+              <h1 className="text-4xl font-bold text-foreground text-center">Characters</h1>
+              <input
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search by character or actor name…"
+                className="mt-3 h-10 w-full max-w-xl rounded-lg border border-border/60 bg-background px-3 outline-none focus:ring-2 focus:ring-primary/40"
+                aria-label="Search characters by character or actor name"
+              />
+              <div className="mt-2 text-xs text-muted-foreground">
+                Showing <span className="font-semibold">{visibleCharacters.length}</span> of{" "}
+                <span className="font-semibold">{play?.characters?.length ?? 0}</span> characters
               </div>
+            </div>
+
+            {/* Grid */}
+            <div className={cn("grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4 p-4")}>
+              {visibleCharacters.map((character) => (
+                <Link key={character?.characterId} href={`/characters/${character?.characterId}`}>
+                  <PlayCharacterCard character={character} />
+                </Link>
+              ))}
             </div>
           </div>
         )}
